@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROHIT FITNESS</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img.jpg');
+    }
+    .left{
+     position: absolute; 
+     left: 39px;
+     top: 10px; 
+     display: inline-block;
+     
+    
+    }
+    .mid{
+     display: block;
+     width: 47%;
+     margin: 10px auto;   
+
+
+    }
+    .right{
+     position: absolute; 
+     right: 25px;
+     top: 14px;  
+     display: inline-block;   
+    
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 18px;
+    }
+    .navbar li a{
+       color: white;
+        text-decoration: none;   
+        padding: 42px 10px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+         text-decoration: underline;
+         color: gray;
+    }
+    .left img{
+        width: 98px;
+        filter: invert(100%);
+
+
+    }
+    .left div{
+        text-align: center;
+        color: white;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+        margin: 135px 56px;
+    padding: 17px 59px;
+    width: 29%;
+    border-radius: 17px;
+    border: 2px solid white;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 58px;
+       padding: 5px 107px;
+       border: 2px solid gray;
+      margin: 11px auto;
+      border-radius: 23px;
+      
+
+    }
+    .container h1{
+        text-align: center;
+        color: white;
+    }
+    .container button{
+        display: block;
+       margin: auto;
+
+    }
+
+</style>
+<body>
+    <header class="header">
+
+        <div class="left">
+        <img src="img2.png" alt="">
+        <div>GARG FITNESS</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#" >ABOUT US</a></a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+             </ul>
+        </div>
+        <div class="right">
+        <button class="btn">CALL US NOW</button>
+        <button class="btn">EMAIL US</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>join the best gym of sheopur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Age ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Contact">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
